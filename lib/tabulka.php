@@ -1,7 +1,7 @@
 <?php
 $query = @$_POST['query'];
 
-$db = new SQLite3('databaze.db');
+$db = new SQLite3('databaze.sql');
 ?>
 
 <html>
